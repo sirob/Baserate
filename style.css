@@ -180,9 +180,43 @@ h1 {
 @media only screen and (min-width: 440px) {
 	h1 {
 		font-size: 2.2em;
+		margin-top: 5%;
 	}
 
 	#percentage {
 		font-size: 2.5em;
+	}
+}
+
+@media only screen and (min-width: 550px) {
+	h1 {
+		font-size: 2.5em;
+		margin-top: 10%;
+	}
+
+	#percentage {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (min-width: 660px) {
+	h1 {
+		font-size: 2.8em;
+		margin-top: 15%;
+	}
+
+	#percentage {
+		font-size: 3.6em;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	h1 {
+		font-size: 3em;
+		margin-top: 118%;
+	}
+
+	#percentage {
+		font-size: 3.8em;
 	}
 }
