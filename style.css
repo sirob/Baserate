@@ -90,7 +90,7 @@ h1 {
 }
 
 /* Opera < 12.1 */
-/* @-o-keyframes blink { */
+@-o-keyframes blink {
     from { opacity: 0; }
 	25% {opacity: 0;}
 	50% { opacity: 0;}
