@@ -212,11 +212,11 @@ h1 {
 
 @media only screen and (min-width: 900px) {
 	h1 {
-		font-size: 2.5em;
-		margin-top: 7%;
+		font-size: 2.3em;
+		margin-top: 6%;
 	}
 
 	#percentage {
-		font-size: 3em;
+		font-size: 2.7em;
 	}
 }
