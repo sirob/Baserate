@@ -4,7 +4,7 @@ html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-    overflow: hidden;	
+    overflow: hidden;
 }
 
 body {
@@ -55,7 +55,7 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
+	87% {opacity: 0;}
     100%  { opacity: 1; }
 }
 
@@ -65,7 +65,7 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
+	87% {opacity: 0;}
     100%  { opacity: 1; }
 }
 
@@ -75,7 +75,7 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
+	87% {opacity: 0;}
     100%  { opacity: 1; }
 }
 
@@ -85,7 +85,7 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
+	87% {opacity: 0;}
     100%  { opacity: 1; }
 }
 
@@ -95,7 +95,7 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
+	87% {opacity: 0;}
     100%  { opacity: 1; }
 }
 
@@ -112,8 +112,12 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
-    100%  { opacity: 1; }
+	87% {opacity: 0;}
+	90% {opacity: 0.15;}
+	93% {opacity: 0.3;}
+	97% {opacity: 0.5;}
+	99% {opacity: 0.75;}
+  100%  { opacity: 1; }
 }
 
 /* Firefox < 16 */
@@ -122,8 +126,12 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
-    100%  { opacity: 1; }
+	87% {opacity: 0;}
+	90% {opacity: 0.15;}
+	93% {opacity: 0.3;}
+	97% {opacity: 0.5;}
+	99% {opacity: 0.75;}
+  100%  { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
@@ -132,8 +140,12 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
-    100%  { opacity: 1; }
+	87% {opacity: 0;}
+	90% {opacity: 0.15;}
+	93% {opacity: 0.3;}
+	97% {opacity: 0.5;}
+	99% {opacity: 0.75;}
+  100%  { opacity: 1; }
 }
 
 /* Internet Explorer */
@@ -142,8 +154,12 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
-    100%  { opacity: 1; }
+	87% {opacity: 0;}
+	90% {opacity: 0.15;}
+	93% {opacity: 0.3;}
+	97% {opacity: 0.5;}
+	99% {opacity: 0.75;}
+  100%  { opacity: 1; }
 }
 
 /* Opera < 12.1 */
@@ -152,7 +168,21 @@ h1 {
 	25% {opacity: 0;}
 	50% { opacity: 0;}
 	75% { opacity: 0;}
-	87% {opacity: 0.5;}
-    100%  { opacity: 1; }
+	87% {opacity: 0;}
+	90% {opacity: 0.15;}
+	93% {opacity: 0.3;}
+	97% {opacity: 0.5;}
+	99% {opacity: 0.75;}
+  100%  { opacity: 1; }
 }
+}
+
+@media only screen and (min-width: 440px) {
+	h1 {
+		font-size: 2.2em;
+	}
+
+	#percentage {
+		font-size: 2.5em;
+	}
 }
