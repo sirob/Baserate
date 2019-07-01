@@ -1,13 +1,13 @@
-/* For mobile phones */
+/* For mobile phones 
 
 html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
     overflow: hidden;	
-}
+} */
 
-body {
+html, body {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
@@ -17,8 +17,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: auto;
-	position: absolute;
 }
 
 
