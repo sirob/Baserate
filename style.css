@@ -12,7 +12,7 @@ body {
       rgba(0, 0, 0, 0.2)
     ), url("draghi.jpg");
 	background-color: blue;
-	background-size: 100 vw 100vh;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
