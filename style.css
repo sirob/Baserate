@@ -7,7 +7,8 @@ html {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ), url("draghi.jpg");
-	background-color: #4EA2F8;
+	background-color: black;
+	background-size: 100 vw 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
