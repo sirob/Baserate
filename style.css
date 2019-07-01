@@ -10,6 +10,7 @@ html {
 	background-color: black;
 	background-size: 100 vw 100vh;
 	background-position: center;
+	background-position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
