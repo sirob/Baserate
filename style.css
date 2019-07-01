@@ -21,7 +21,7 @@ body {
 h1 {
 	text-align: center;
 	color: #fff;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -38,8 +38,8 @@ h1 {
 #percentage {
 	font-size: 1.8em;
 	display: inline-block;
-	margin-top: 4%;
-	margin-bottom: 10%;
+	margin-top: 6%;
+	margin-bottom: 8%;
 	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
         -ms-animation: fadein 4s; /* Internet Explorer */
