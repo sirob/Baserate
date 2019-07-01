@@ -207,8 +207,7 @@ h1 {
 
 	#percentage {
 		font-size: 2.4em;
-		margin-top: 10%;
-		margin-bottom: 10%;
+		margin: 10% 7% 0;
 	}
 }
 
@@ -220,6 +219,6 @@ h1 {
 
 	#percentage {
 		font-size: 3em;
-		margin: 5% 3%;
+		margin: 6% 10%;
 	}
 }
