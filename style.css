@@ -12,7 +12,11 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overscroll-behavior-y: none;
+}
+
+body {
+	position: fixed;
+	overflow: hidden;
 }
 
 
@@ -30,7 +34,7 @@ h1 {
 				  3px 3px #EDE412,
 				  4.5px 4.5px #EDE412;
 	letter-spacing: 0.3em;
-	line-height: 1.5em;
+	line-height: 1.3em;
 }
 
 
