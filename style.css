@@ -17,7 +17,7 @@ html {
 h1 {
 	text-align: center;
 	color: #fff;
-	font-size: 1.7em;
+	font-size: 1.8em;
 	font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -32,9 +32,9 @@ h1 {
 }
 
 #percentage {
-	font-size: 2em;
+	font-size: 2.1em;
 	display: inline-block;
-	margin-top: 12%;
+	margin-top: 15%;
 	margin-bottom: 15%;
 	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
