@@ -196,8 +196,6 @@ h1 {
 
 	#percentage {
 		font-size: 2.2em;
-		margin-top: 10%;
-		margin-bottom:10%;
 	}
 }
 
@@ -209,19 +207,19 @@ h1 {
 
 	#percentage {
 		font-size: 2.4em;
-		margin-top: 5%;
-		margin-bottom: 5%;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	h1 {
 		font-size: 2.5em;
-		margin-top: 2.7%;
+		margin-top: 3%;
 	}
 
 	#percentage {
 		font-size: 3em;
-		margin: 0;
+		margin: 5% 3%;
 	}
 }
