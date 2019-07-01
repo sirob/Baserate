@@ -21,7 +21,7 @@ body {
 h1 {
 	text-align: center;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -36,7 +36,7 @@ h1 {
 }
 
 #percentage {
-	font-size: 2em;
+	font-size: 1.8em;
 	display: inline-block;
 	margin-top: 4%;
 	margin-bottom: 10%;
