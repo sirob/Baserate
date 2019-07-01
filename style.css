@@ -5,6 +5,7 @@ html {
 	width: 100%;
 	margin: 0;
 	overflow: hidden;
+	position: fixed;
 	
 }
 
@@ -13,13 +14,13 @@ body {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ), url("draghi.jpg");
-	background-color: black;
+	background-color: blue;
 	background-size: 100 vw 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+	position: fixed;
 }
 
 
