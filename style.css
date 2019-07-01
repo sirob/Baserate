@@ -2,7 +2,9 @@
 
 html {
 	height: 100%;
+	width: 100%;
 	margin: 0;
+	overflow: hidden;
 	
 }
 
@@ -16,8 +18,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: fixed;
-	overflow: hidden;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 
