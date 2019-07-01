@@ -179,6 +179,17 @@ h1 {
 
 @media only screen and (min-width: 440px) {
 	h1 {
+		font-size: 1.9em;
+		margin-top: 3%;
+	}
+
+	#percentage {
+		font-size: 2.1em;
+	}
+}
+
+@media only screen and (min-width: 550px) {
+	h1 {
 		font-size: 2em;
 		margin-top: 4%;
 	}
@@ -188,10 +199,10 @@ h1 {
 	}
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 660px) {
 	h1 {
 		font-size: 2.1em;
-		margin-top: 6%;
+		margin-top: 5%;
 	}
 
 	#percentage {
@@ -199,24 +210,13 @@ h1 {
 	}
 }
 
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 900px) {
 	h1 {
 		font-size: 2.5em;
-		margin-top: 10%;
+		margin-top: 7%;
 	}
 
 	#percentage {
 		font-size: 3em;
-	}
-}
-
-@media only screen and (min-width: 900px) {
-	h1 {
-		font-size: 2.7em;
-		margin-top: 12%;
-	}
-
-	#percentage {
-		font-size: 3.2em;
 	}
 }
